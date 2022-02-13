@@ -155,7 +155,7 @@ rami:hasSemanticExpression
 rami:ExpressionSemantic
         rdf:type             owl:Class ;
         rdfs:comment         "Specifies which role the property plays in an interaction, i.e. which \nexpression the provider of the property intends. \nValid values are: Requirement (for requests that are to be confirmed or rejected) Confirmations (for responses to requests that describe the capability of an asset) Measurement (if a measured or actual value is provided)"@en ;
-        rdfs:isDefinedBy     "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2017/April/Asset_Administration_Shell/ZVEI_WP_Verwaltungschale_Englisch_Download_03.04.17.pdf" ;
+        rdfs:isDefinedBy     "https://www.zvei.org/fileaasdasdasddmin/user_upload/Presse_und_Medien/Publikationen/2017/April/Asset_Administration_Shell/ZVEI_WP_Verwaltungschale_Englisch_Download_03.04.17.pdf" ;
         rdfs:label           "Expression Semantic"@en , "Ausprägungsaussage"@de ;
         owl:equivalentClass  [ rdf:type   owl:Class ;
                                owl:oneOf  ( rami:Confirmation rami:Measurement rami:Requirement )
