@@ -108,7 +108,7 @@
       rdfs:range xsd:string . 
 #  --------------------------- Property 15------------------------- 
 :inAccordanceWith rdf:type owl:ObjectProperty ;
-                  rdfs:comment "The Submodel is in accordance with a given standard specified in the STO ontology" ;
+                  rdfs:comment "The Submodel here is in accordance with a given standard specified in the STO ontology" ;
                   rdfs:label "inAccordanceWith"@IRI-based; 
                   rdfs:label "in Accordance With"@en; 
                   rdfs:domain :Submodel;
