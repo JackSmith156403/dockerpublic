@@ -34,13 +34,13 @@
                      rdfs:label "hasComponentManager"@IRI-based; 
                      rdfs:label "has Component Manager"@en; 
                      rdfs:domain :AdminShell;
-                     rdfs:range :ComponentManager . 
+                     rdfs:range :ComponentManager  . 
 #  --------------------------- Property 3------------------------- 
 :isConnectedTo rdf:type owl:ObjectProperty ;
                rdfs:comment "Connects the Admin Shell with the different RAMI4.0 Dimensions" ;
                rdfs:label "isConnectedTo"@IRI-based; 
                rdfs:label "is Connected To"@en; 
-               rdfs:domain :AdminShell is edited;
+               rdfs:domain :AdminShell is edited again;
                rdfs:range :Dimension . 
 #  --------------------------- Property 4------------------------- 
 :inventoryNumber rdf:type owl:DatatypeProperty, owl:FunctionalProperty ;
