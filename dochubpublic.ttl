@@ -40,7 +40,7 @@
                rdfs:comment "Connects the Admin Shell with the different RAMI4.0 Dimensions" ;
                rdfs:label "isConnectedTo"@IRI-based; 
                rdfs:label "is Connected To"@en; 
-               rdfs:domain :AdminShell;
+               rdfs:domain :AdminShell is edited;
                rdfs:range :Dimension . 
 #  --------------------------- Property 4------------------------- 
 :inventoryNumber rdf:type owl:DatatypeProperty, owl:FunctionalProperty ;
